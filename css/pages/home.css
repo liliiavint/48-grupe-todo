@@ -1,13 +1,17 @@
-/*base*/
+/* base */
 @import '../base/base.css';
 @import '../base/layout.css';
-/* 3rd-party*/
 
+/* 3rd-party */
 
-/*Components*/
+/* components */
 @import '../components/button.css';
 @import '../components/card.css';
 @import '../components/footer.css';
 @import '../components/header.css';
 
-/*CUSTOM CSS BELOW THIS COMENT LINE*/
+/* CUSTOM CSS BELOW THIS COMMENT LINE */
+
+body {
+    background-color: #eeeef9;
+}
