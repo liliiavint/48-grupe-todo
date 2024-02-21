@@ -1,34 +1,39 @@
 const data = {
-    tasks:[
+    tasks: [
+        {
+            title: 'Išsivalyti dantis',
+            description: 'Nes reikia',
+            status: 'done',
+        },
         {
             title: 'Reikia pasidaryti arbatos',
-            description: 'Reikia butu slapia ir silta',
-            status:'todo',
-        }, 
+            description: 'Reikia jog butu slapia ir silta',
+            status: 'done',
+        },
         {
-            title: 'Reikia pasidaryti arbatos',
-            description: 'Reikia butu slapia ir silta',
-            status:'in-progress',
-        }, 
+            title: 'Pasimokyti apie DOM',
+            description: 'Vis dar ir dar daug 👀👍',
+            status: 'in-progress',
+        },
         {
-            title: 'Reikia pasidaryti arbatos',
-            description: 'Reikia butu slapia ir silta',
-            status:'in-progres',
-        }, 
+            title: 'Paklausti apie "ryto klausimus"',
+            description: 'Gal turės ką paklausti? 🤔',
+            status: 'in-progress',
+        },
         {
-            title: 'Reikia pasidaryti arbatos',
-            description: 'Reikia butu slapia ir silta',
-            status:'todo',
-        }, 
+            title: 'Git',
+            description: 'git commit add, git commit -m, git push',
+            status: 'todo',
+        },
     ],
-    columns:[
+    columns: [
         {
             title: 'Task ready',
             status: 'todo',
-        }, 
+        },
         {
             title: 'In progress',
-            status: 'in progress',
+            status: 'in-progress',
         },
         {
             title: 'Needs review',
@@ -37,9 +42,8 @@ const data = {
         {
             title: 'Done',
             status: 'done',
-        }
-    ]
-    
+        },
+    ],
 };
 
-export{data}
+export { data };
