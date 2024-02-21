@@ -10,11 +10,22 @@ const todo2 = new Table(
     'Nėra sukurta jokių užduočių. Susikurk!'
 );
 
+
+
+ /* pavidzu2
+ console.log(todo.labas());
+console.log(todo2.labas('Latvija'));*/
+//pavidzu3
+todo.addColumn()
+todo.addColumn(256)
+todo.addColumn(true)
+todo.addColumn('     ')
+todo.addColumn('     Title')
+todo.addColumn('Title     ')
+todo.addColumn('    Title    ')
+todo.addColumn('Backlog')
+todo.addColumn('In progress')
+todo.addColumn('Review')
+todo.addColumn('Done')
+
 console.log(todo);
-console.log(todo2);
-
-console.log(todo.labas('Lietuva'));
-console.log(todo2.labas('Latvija'));
-
-console.log(todo.labanakt('vaikučiams'));
-console.log(todo2.labanakt('suaugusiems'));
